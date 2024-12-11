@@ -20,7 +20,7 @@ import javax.swing.JOptionPane;
  */
 public class ExpenseImp implements ExpenseInterface {
 
-     static Connection con = null;
+    static Connection con = null;
 
     @Override
     public int addExpense(Expense expense) {
